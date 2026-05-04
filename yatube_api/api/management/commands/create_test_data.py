@@ -81,9 +81,9 @@ class Command(BaseCommand):
 
         self.stdout.write(self.style.SUCCESS(
             'Тестовые данные обновлены:\n'
-            f'  Пользователи: regular_user, root, second_user\n'
-            f'  Группы: group_1, group_2\n'
-            f'  Посты: 4\n'
-            f'  Комментарии: 2\n'
-            f'  Подписки: отсутствуют (будут созданы тестами)'
+            '  Пользователи: regular_user, root, second_user\n'
+            '  Группы: group_1, group_2\n'
+            '  Посты: 4\n'
+            '  Комментарии: 2\n'
+            '  Подписки: отсутствуют (будут созданы тестами)'
         ))
